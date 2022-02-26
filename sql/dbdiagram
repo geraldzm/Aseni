@@ -1,0 +1,63 @@
+
+Table user {
+  user_id int [pk, increment]
+  bio varcharacter(256)
+  
+  rol_id int [ref: > rol.rol_id]
+  political_party_id int [ref: > pp.pp_id]
+  foto int [ref: > image.image_id]
+} 
+
+Table rol {
+  rol_id int [pk, increment]
+  name varcharacter(32) [unique, not null]
+}
+
+Table political_party as pp {
+    pp_id int [pk, increment]
+    name varcharacter(32)
+    
+    flag_image int [ref: > image.image_id]
+}
+  
+  
+Table canton {
+  canton_id int [pk, increment]
+  name varcharacter(32) [not null]
+}
+
+Table plan {
+  plan_id int [pk, increment]
+  title varcharacter(32) [not null]
+  description varcharacter(512) [not null]
+  
+  pp_id int [ref: > pp.pp_id]
+}
+
+
+Table deliverable {
+  deliverable_id int [pk, increment]
+  deadline datetime [not null]
+  kpi int [not null]
+  
+  action_id int [ref: > action.action_id]
+  kpi_type_id int [ref: > kpi_type.kpi_type_id]
+  canton_id int [ref: > canton.canton_id]
+  plan_id int [ref: > plan.plan_id]
+}
+
+Table action {
+  action_id int [pk, increment]
+  action varcharacter(512) [not null]
+}
+
+Table kpi_type {
+  kpi_type_id int [pk, increment]
+  name varcharacter(32)
+}
+ 
+Table image {
+  image_id int [pk, increment]
+  url varcharacter(512)
+}
+
