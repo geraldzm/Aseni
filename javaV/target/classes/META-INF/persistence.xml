@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="default">
+
+        <class>model.ActionEntity</class>
+        <class>model.CantonEntity</class>
+        <class>model.DeliverableEntity</class>
+        <class>model.ImageEntity</class>
+        <class>model.KpiTypeEntity</class>
+        <class>model.PlanEntity</class>
+        <class>model.PoliticalPartyEntity</class>
+        <class>model.RolEntity</class>
+        <class>model.UserEntity</class>
+        <properties>
+
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://localhost:2223;database=Aseni"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value="CkdKDf#ievNdalcsq@dfs"/>
+
+            <!--            para activar el pool -->
+            <property name="hibernate.c3p0.max_size" value="5"/>
+            <property name="hibernate.c3p0.min_size" value="3"/>
+            <property name="hibernate.c3p0.timeout" value="1000"/>
+
+            <!--            para activar la cache -->
+<!--            <property name="hibernate.cache.use_query_cache" value="true"/>-->
+
+        </properties>
+    </persistence-unit>
+
+
+</persistence>
