@@ -1,0 +1,15 @@
+/home/geraldzm/develop/tec/Aseni/netV/bin/Debug/net6.0/netV
+/home/geraldzm/develop/tec/Aseni/netV/bin/Debug/net6.0/netV.deps.json
+/home/geraldzm/develop/tec/Aseni/netV/bin/Debug/net6.0/netV.runtimeconfig.json
+/home/geraldzm/develop/tec/Aseni/netV/bin/Debug/net6.0/netV.dll
+/home/geraldzm/develop/tec/Aseni/netV/bin/Debug/net6.0/ref/netV.dll
+/home/geraldzm/develop/tec/Aseni/netV/bin/Debug/net6.0/netV.pdb
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/netV.csproj.AssemblyReference.cache
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/netV.GeneratedMSBuildEditorConfig.editorconfig
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/netV.AssemblyInfoInputs.cache
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/netV.AssemblyInfo.cs
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/netV.csproj.CoreCompileInputs.cache
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/netV.dll
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/ref/netV.dll
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/netV.pdb
+/home/geraldzm/develop/tec/Aseni/netV/obj/Debug/net6.0/netV.genruntimeconfig.cache
